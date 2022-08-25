@@ -3,7 +3,7 @@ const babel = require('gulp-babel');
 const ts = require('gulp-typescript');
 const babelConfig = require('./babel.config');
 
-const tsProject = ts.createProject('tsconfig.json');
+const tsProject = ts.createProject('tsconfig.json', { isolatedModules: false });
  
 function compileJs(){
   return gulp.src('src/**/*.ts')
