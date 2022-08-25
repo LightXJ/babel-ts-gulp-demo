@@ -1,6 +1,6 @@
-import { DirectionType } from './interface';
+import type { DirectionType } from './interface';
 
-export { DirectionType };
+export type { DirectionType };
 
 export type AType = 'ltr' | 'rtl' | undefined;
 

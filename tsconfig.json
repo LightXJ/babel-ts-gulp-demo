@@ -5,6 +5,7 @@
           "es2015",
           "DOM"
       ],
+      "isolatedModules": true,
       "declaration": true,
       "emitDeclarationOnly": true,
   },
